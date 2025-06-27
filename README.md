@@ -54,8 +54,11 @@ Certifique-se de ter o Python instalado. Em seguida, instale os pacotes necessar
 pip install robotframework
 pip install robotframework-seleniumlibrary
 ```
+### 3. Alterar caminho para o python.exe
 
-### 3. Executar o teste
+Na pasta .vscode abrir o arquivo settings.json e substituir o caminho para o python.exe
+
+### 4. Executar o teste
 
 Execute o seguinte comando na raiz do projeto:
 
@@ -72,4 +75,8 @@ O navegador sera aberto, a simulacao de compra sera realizada conforme o fluxo d
 - Utilize o navegador **Google Chrome** para melhor compatibilidade.
 - A localizacao dos elementos foi feita por `id`, `xpath` e `css`, priorizando performance e manutencao.
 - O campo de busca utiliza comandos JavaScript para contornar a mecanica de eventos do site.
+
+## ?? Autor
+
+Ant?nio de Sousa – [LinkedIn](https://www.linkedin.com/in/antoniosousas/)
 

@@ -18,8 +18,6 @@ Validar garantia selecionada
 
     #garante que o valor seja true, ou seja, o radio esta marcado
     Should Be Equal As Strings    ${checked}    true
-    Log To Console    XPATH ${xpath}
-    Log To Console    QUANTIDADE ${GARANTIA_MESES_PRECARRINHO}
 
 
 
