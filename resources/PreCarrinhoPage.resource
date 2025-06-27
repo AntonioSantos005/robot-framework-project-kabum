@@ -12,7 +12,7 @@ Selecionar garantia em meses
     Wait Until Element Is Visible    xpath=//span[contains(.,'${quantidade} Meses de garantia')]
     Click Element    xpath=//span[contains(.,'${quantidade} Meses de garantia')]
 
-    #armazernar o valor da quantidade de meses emm garantinha para validar na tela de carrinho
+    #armazenar o valor da quantidade de meses em garantia para validar na tela de carrinho
     Set Global Variable    ${GARANTIA_MESES_PRECARRINHO}    ${quantidade}
 
 
