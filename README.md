@@ -76,7 +76,6 @@ O navegador sera aberto, a simulacao de compra sera realizada conforme o fluxo d
 - A localizacao dos elementos foi feita por `id`, `xpath` e `css`, priorizando performance e manutencao.
 - O campo de busca utiliza comandos JavaScript para contornar a mecanica de eventos do site.
 
-## ?? Autor
+## Autor
 
-Ant?nio de Sousa – [LinkedIn](https://www.linkedin.com/in/antoniosousas/)
-
+Antonio de Sousa â€“ [LinkedIn](https://www.linkedin.com/in/antoniosousas/)
