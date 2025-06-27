@@ -2,10 +2,6 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-
-# mapeando o botao fechar do modal de frete passando cssSelector dinamico que busca a tag "div" que contem no seu atributo "role" o valor "dialog" 
-# garantindo que esta verificando o modal e dentro dele encontrando a tag "button" que tem no atributo "aria-label" o valor "Fechar", CSS eh mais performatico do que Xpath
-
 ${BOTAO_ADICIONAR_SERVICOS}  xpath=//button[.='Adicionar serviços']
 
 *** Keywords ***
