@@ -4,7 +4,7 @@ Library    String
 Library    BuiltIn
 
 *** Variables ***
-# O resultado da busca pode aparecer no h1 ou diretamente na div listingBreadcrumbs
+# O resultado da busca pode aparecer no h1 ou diretamente na div listingBreadcrumbs, sessa forma usando o "|" eh possivel verificar 2 ou mais xpaths ao mesmo tempo realizando a acao apenas naquele que ele encontrar
 ${RESULTADO_BUSCA}    xpath=//div[@id='listingBreadcrumbs']//h1 | //div[@id='listingBreadcrumbs']
 
 # Primeiro item da lista de produtos
